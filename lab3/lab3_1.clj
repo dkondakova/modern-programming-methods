@@ -24,5 +24,3 @@
   (time (doall (filter heavy-even? (range 100)))))
 
 (-main)
-
- (time (doall (pfilter heavy-even? (range 50))))
