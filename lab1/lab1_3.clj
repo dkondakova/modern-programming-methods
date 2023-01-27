@@ -57,13 +57,3 @@
 (my-filter-recur even? '(1 2 3 4))
 (my-filter-recur odd? '(1 2 3 4))
 (my-filter-recur pos? '(-1 0 1 -2 3 -4 6))
-
-(reduce + 0 '(1 2 3 4))
-
-(map inc '())
-
-(cons '(1, 2) '())
-(cons '() '(1, 2))
-
-(conj '(1, 2) '())
-(concat '(1, 2) '())
