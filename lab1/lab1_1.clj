@@ -35,36 +35,3 @@
 
 (-main)
 (make-combinations '("a" "b" "c") 3)
-
-
-
-
-(list (str "a" "abs"))
-
-(Integer/parseInt "123")
-
-(dec 0.5)
-
-(reduce concat "" (list "ghbdtn" "hello"))
-(s/join #" " '("ghbdtn" "hello" "holla"))
-
-(map #(Math/abs %) '(-1 -2 3))
-
-(Math/abs (- 5 7))
-
-(reduce max 0 (map #(Math/abs %) (map - '(1 2 3) '(4 7 10))))
-
-(first '(1 2 3))
-
-(def res (filter (fn [x] (= "Bob" (first x))) (list (list "Tom" 31)
-                                                    (list "Alice" 22)
-                                                    (list "Bob" 42))))
-(println res)
-
-(rest '())
-
-(map inc (seq "abc"))
-
-(map int (seq "abc"))
-
-(concat '("ab" "bc") '("ac", "ad"))
