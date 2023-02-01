@@ -50,4 +50,4 @@ Labs for Modern Programming Methods course in NSU
 - Обеспечить расширяемость для новых операций (исключающее ИЛИ, стрелка Пирса и пр.)
 - Код должен быть покрыт тестами, API документирован.
 
-## [5. Проект](https://github.com/aleksey-khoroshavin/mpm-persistent-ds)
+## [5. Проект – Persistent data structures](https://github.com/aleksey-khoroshavin/mpm-persistent-ds)
