@@ -34,4 +34,3 @@
   (println (make-combinations '("a" "b" "c") 3)))
 
 (-main)
-(make-combinations '("a" "b" "c") 3)
